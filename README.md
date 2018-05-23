@@ -24,14 +24,18 @@ cd NXDNClients
 In this case we are installing NXDNReflector 
 
 cd NXDNReflector
+
 make
 
 Edit the NXDNReflector.ini to suit your needs
 
 If you want to run NXDNReflector as a daemon you need to set up a user, group
 
+
 groupadd mmdvm
+
 useradd mmdvm -g mmdvm -s /sbin/nologin
+
 usermod mmdvm -G dialout
 
 *Totally optional* Restart the server
@@ -40,8 +44,11 @@ shutdown -r now or reboot
 
 Now go to the directory you installed to
 
+
 cd Downloads
+
 cd NXDNReflector
+
 
 Start up the NXDNReflector
 
@@ -66,7 +73,9 @@ mmdvm     4237  0.4  0.0  31908  1904 ?        Ssl  11:32   0:48 ./NXDNReflector
 
 
 Thats it! NXDNReflector is up and running!
+
 73
+
 K2COP
 
 
