@@ -18,7 +18,9 @@ apt-get install git
 Grab the source code
 
 cd ~/Downloads
+
 git clone https://github.com/g4klx/NXDNClients.git
+
 cd NXDNClients
 
 In this case we are installing NXDNReflector 
