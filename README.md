@@ -54,7 +54,7 @@ cd NXDNReflector
 
 Start up the NXDNReflector
 
-./NXDNReflector NXDNReflector.ini
+./NXDNReflector NXDNReflector.ini &
 
 Check and see if the daemon is running by looking at running processesses or by using netstat
 
